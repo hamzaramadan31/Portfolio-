@@ -75,8 +75,8 @@ const Hero: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-100 dark:border-blue-900 shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="John Doe" 
+                src="/assets/hamza_breeze.png" 
+                alt="Hamza Ramadan" 
                 className="w-full h-full object-cover"
               />
             </div>

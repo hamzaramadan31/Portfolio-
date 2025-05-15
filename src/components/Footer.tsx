@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold text-blue-400 mb-2">John Doe</h3>
+            <h3 className="text-2xl font-bold text-blue-400 mb-2">Hamza Ramadan</h3>
             <p className="text-gray-400">Frontend Developer</p>
           </div>
           
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <Twitter className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:john.doe@example.com" 
+              href="mailto:hamzaramadan31@gmail.com" 
               className="text-gray-400 hover:text-white transition-colors duration-300"
               aria-label="Email"
             >

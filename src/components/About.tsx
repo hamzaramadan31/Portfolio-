@@ -38,7 +38,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mt-4 mb-6"></div>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Get to know more about my journey, experience, and what drives my passion for creating outstanding digital experiences.
+            Get to know more about my journey, experience, and what drives my passion for aviation
           </p>
         </div>
 
@@ -48,13 +48,13 @@ const About: React.FC = () => {
               My Journey
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I'm a passionate frontend developer with over 5 years of experience building user-centered web applications. My journey in tech started when I discovered my passion for creating beautiful interfaces that solve real problems.
+              Hi, I’m Hamza Ramadan — a dynamic Operations Manager with a strong foundation in aviation logistics, customer service, and ground operations management.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              What sets me apart is my dedication to clean, maintainable code and my eye for design details. I believe great products result from the perfect balance between functionality, performance, and aesthetics.
+              I’ve built my career through hands-on experience at leading airlines like JetBlue, Alaska Airlines, and Breeze Airways, where I specialized in optimizing operations, enhancing safety compliance, and boosting team performance. From managing daily airport operations to training new agents and ensuring top-tier security standards, my work reflects a commitment to excellence and operational efficiency.
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              When I'm not coding, you can find me hiking mountain trails, experimenting with new cooking recipes, or reading about the latest tech trends.
+              When I’m not working, I’m fueled by my passion for aviation, technology, and staying active. You’ll often find me watching soccer, hitting the gym, or working on computers, always pushing myself to learn, improve, and stay connected to the things I love.
             </p>
           </div>
 
@@ -68,12 +68,12 @@ const About: React.FC = () => {
                   <h4 className="text-xl font-semibold text-gray-800 dark:text-white">Work Experience</h4>
                   <p className="text-gray-600 dark:text-gray-400 flex items-center">
                     <CalendarDays className="h-4 w-4 mr-1" /> 
-                    2019 - Present
+                    2024 - Present
                   </p>
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300">
-                Senior Frontend Developer at Tech Innovations Inc., where I lead a team of developers building enterprise web applications.
+                Led daily operations for JetBlue at DFW, optimizing agent scheduling and operational workflows. Conducted operational audits, safety briefings, and ensured accurate timesheet compliance. Provided leadership support to frontline teams, upholding safety and service standards on behalf of GAT Ground Support. 
               </p>
             </div>
 
@@ -86,12 +86,12 @@ const About: React.FC = () => {
                   <h4 className="text-xl font-semibold text-gray-800 dark:text-white">Education</h4>
                   <p className="text-gray-600 dark:text-gray-400 flex items-center">
                     <CalendarDays className="h-4 w-4 mr-1" /> 
-                    2015 - 2019
+                    2023 - 2025
                   </p>
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300">
-                Bachelor's Degree in Computer Science from University of Technology, with a focus on Web Development and User Experience.
+                Bachelor's Degree in Aviation from University of North Texas, with a focus on supply chain management.
               </p>
             </div>
           </div>
