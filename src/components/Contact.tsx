@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mt-4 mb-6"></div>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Have a project in mind or just want to say hello? Feel free to reach out!
+            Have an opportunity in mind or just want to say hello? Feel free to reach out!
           </p>
         </div>
 

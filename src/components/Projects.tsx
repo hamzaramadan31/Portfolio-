@@ -17,7 +17,7 @@ const projectsData = [
     title: 'Breeze Airways Station Launch at DFW',
     description: 'Successfully launched a new airline station at Dallas Fort Worth Airport. Trained and led a new team to operational readiness. Established safety, compliance, and daily workflow procedures.',
     image: '/assets/breeze2.webp',
-    tags: ['React', 'Firebase', 'Tailwind CSS'],
+    tags: ['R',],
     demoLink: '#',
     repoLink: '#',
   },

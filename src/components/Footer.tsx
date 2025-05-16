@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
             <h3 className="text-2xl font-bold text-blue-400 mb-2">Hamza Ramadan</h3>
-            <p className="text-gray-400">Frontend Developer</p>
+            <p className="text-gray-400">Aviation Business Management. </p>
           </div>
           
           <div className="flex space-x-6">
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/hamza-ramadan-b36b02233/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Hamza Ramadan. All rights reserved.
           </p>
           
           <button 

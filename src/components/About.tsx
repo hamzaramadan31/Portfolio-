@@ -68,7 +68,7 @@ const About: React.FC = () => {
                   <h4 className="text-xl font-semibold text-gray-800 dark:text-white">Work Experience</h4>
                   <p className="text-gray-600 dark:text-gray-400 flex items-center">
                     <CalendarDays className="h-4 w-4 mr-1" /> 
-                    2024 - Present
+                    2023 - Present
                   </p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const About: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-700 dark:text-gray-300">
-                Bachelor's Degree in Aviation from University of North Texas, with a focus on supply chain management.
+                Bachelor's Degree in Aviation Logistics from University of North Texas, with a focus on supply chain and business management.
               </p>
             </div>
           </div>

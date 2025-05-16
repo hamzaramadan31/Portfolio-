@@ -7,19 +7,19 @@ interface Skill {
 }
 
 const skillsData: Skill[] = [
-  { name: 'HTML & CSS', level: 95, color: 'bg-blue-600 dark:bg-blue-500' },
-  { name: 'JavaScript', level: 90, color: 'bg-yellow-500 dark:bg-yellow-400' },
-  { name: 'React', level: 88, color: 'bg-cyan-500 dark:bg-cyan-400' },
-  { name: 'TypeScript', level: 85, color: 'bg-blue-500 dark:bg-blue-400' },
+  { name: 'Sabre', level: 100, color: 'bg-blue-600 dark:bg-blue-500' },
+  { name: 'Amadeus Altea Reservation', level: 100, color: 'bg-yellow-500 dark:bg-yellow-400' },
+  { name: 'Navitaire Go Now & New Skies ', level: 100, color: 'bg-cyan-500 dark:bg-cyan-400' },
+  { name: 'Brock Solutions Smartsuite', level: 100, color: 'bg-blue-500 dark:bg-blue-400' },
   { name: 'Node.js', level: 75, color: 'bg-green-600 dark:bg-green-500' },
   { name: 'UI/UX Design', level: 80, color: 'bg-purple-600 dark:bg-purple-500' },
 ];
 
 const techStack = [
-  'React', 'Vue.js', 'Angular', 'Next.js', 'TypeScript', 
-  'Tailwind CSS', 'SASS', 'Node.js', 'Express', 'MongoDB', 
-  'PostgreSQL', 'GraphQL', 'REST APIs', 'Git', 'Figma', 
-  'Adobe XD', 'Jest', 'Cypress', 'Docker', 'AWS'
+  'Timatic', 'Citrix', 'Amadeus', 'Sherpa', 'Ticket Stocks', 
+  'VCR Coupons', 'Sabre', 'GONOW', 'Skyspeed Ticketing', 'Irops', 
+  'CRO', 'GSC', 'International', 'Excel', 'Regulatory Compliance', 
+  'Adobe', 'DCS (Departure Control System) Proficiency', 
 ];
 
 const Skills: React.FC = () => {
@@ -76,7 +76,7 @@ const Skills: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Technical Proficiency
+              System Proficiency
             </h3>
             
             <div className="space-y-6">
@@ -100,7 +100,7 @@ const Skills: React.FC = () => {
 
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              Technology Stack
+              Areas of Expertise
             </h3>
             
             <div className="flex flex-wrap gap-3">
