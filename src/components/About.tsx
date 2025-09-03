@@ -48,13 +48,13 @@ const About: React.FC = () => {
               My Journey
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              Hi, I’m Hamza Ramadan — a dynamic Operations Manager with a strong foundation in aviation logistics, customer service, and ground operations management.
+              Hi, I’m Hamza Ramadan, an Operations Manager with a proven track record in aviation logistics, customer service, and ground operations leadership.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I’ve built my career through hands-on experience at leading airlines like JetBlue, Alaska Airlines, and Breeze Airways, where I specialized in optimizing operations, enhancing safety compliance, and boosting team performance. From managing daily airport operations to training new agents and ensuring top-tier security standards, my work reflects a commitment to excellence and operational efficiency.
+              I’ve advanced my career through hands-on experience with leading airlines such as JetBlue, Alaska Airlines, and Breeze Airways, specializing in optimizing operations, enhancing safety compliance, and driving team performance. From managing daily airport operations to training and mentoring agents, I ensure top-tier security standards, operational efficiency, and service excellence.
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              When I’m not working, I’m fueled by my passion for aviation, technology, and staying active. You’ll often find me watching soccer, hitting the gym, or working on computers, always pushing myself to learn, improve, and stay connected to the things I love.
+              Beyond work, I’m passionate about aviation and the tech industry. I enjoy sports, traveling, and spending time with family, always seeking new opportunities to grow and stay connected to what matters most.
             </p>
           </div>
 

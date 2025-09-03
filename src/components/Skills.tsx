@@ -7,19 +7,19 @@ interface Skill {
 }
 
 const skillsData: Skill[] = [
-  { name: 'Sabre', level: 100, color: 'bg-blue-600 dark:bg-blue-500' },
-  { name: 'Amadeus Altea Reservation', level: 100, color: 'bg-yellow-500 dark:bg-yellow-400' },
-  { name: 'Navitaire Go Now & New Skies ', level: 100, color: 'bg-cyan-500 dark:bg-cyan-400' },
-  { name: 'Brock Solutions Smartsuite', level: 100, color: 'bg-blue-500 dark:bg-blue-400' },
-  { name: 'Node.js', level: 75, color: 'bg-green-600 dark:bg-green-500' },
-  { name: 'UI/UX Design', level: 80, color: 'bg-purple-600 dark:bg-purple-500' },
+  // { name: 'Sabre', level: 100, color: 'bg-blue-600 dark:bg-blue-500' },
+  // { name: 'Amadeus Altea Reservation', level: 100, color: 'bg-yellow-500 dark:bg-yellow-400' },
+  // { name: 'Navitaire Go Now & New Skies ', level: 100, color: 'bg-cyan-500 dark:bg-cyan-400' },
+  // { name: 'Brock Solutions Smartsuite', level: 100, color: 'bg-blue-500 dark:bg-blue-400' },
+  // { name: 'Node.js', level: 75, color: 'bg-green-600 dark:bg-green-500' },
+  // { name: 'UI/UX Design', level: 80, color: 'bg-purple-600 dark:bg-purple-500' },
 ];
 
 const techStack = [
-  'Timatic', 'Citrix', 'Amadeus', 'Sherpa', 'Ticket Stocks', 
-  'VCR Coupons', 'Sabre', 'GONOW', 'Skyspeed Ticketing', 'Irops', 
-  'CRO', 'GSC', 'International', 'Excel', 'Regulatory Compliance', 
-  'Adobe', 'DCS (Departure Control System) Proficiency', 
+  'Team Leadership & Mentorship', 'Operational Decision-Making','Workforce Planning & Scheduling', 'Conflict Resolution','Performance Coaching & Development','Crisis & Irregular Operations Management (IROP Leadership)','Audit & Compliance Oversight','Safety & Culture Enforcement','Employee Engagement & Motivation','DCS (Departure Control System) Proficiency', 'DOT Complaint Resolution Official (CRO) certified', 'Ground Security Coordinator (GSC)', 
+  'Sabre & Amadeus Proficient', 'VCR Coupons', 'Navitaire New Skies / Go Now',  
+    'International Operation Expertise ', 
+    
 ];
 
 const Skills: React.FC = () => {
@@ -73,37 +73,39 @@ const Skills: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-              System Proficiency
-            </h3>
-            
-            <div className="space-y-6">
-              {skillsData.map((skill, index) => (
-                <div key={index} className="mb-4">
-                  <div className="flex justify-between mb-2">
-                    <span className="text-gray-800 dark:text-gray-200 font-medium">{skill.name}</span>
-                    <span className="text-gray-600 dark:text-gray-400">{skill.level}%</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
-                    <div
-                      ref={(el) => (barRefs.current[index] = el)}
-                      className={`h-2.5 rounded-full ${skill.color}`}
-                      style={{ width: '0%', transition: 'width 1s ease-in-out' }}
-                    ></div>
-                  </div>
+        {/* Use the same vertical rhythm as Projects (no min-h-screen, no extra spacing) */}
+        {/* <div>
+          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
+            System Proficiency
+          </h3>
+          
+          <div className="space-y-6">
+            {skillsData.map((skill, index) => (
+              <div key={index} className="mb-4">
+                <div className="flex justify-between mb-2">
+                  <span className="text-gray-800 dark:text-gray-200 font-medium">{skill.name}</span>
+                  <span className="text-gray-600 dark:text-gray-400">{skill.level}%</span>
                 </div>
-              ))}
-            </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                  <div
+                    ref={(el) => (barRefs.current[index] = el)}
+                    className={`h-2.5 rounded-full ${skill.color}`}
+                    style={{ width: '0%', transition: 'width 1s ease-in-out' }}
+                  ></div>
+                </div>
+              </div>
+            ))}
           </div>
+        </div> */}
 
-          <div>
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
+        {/* Center the entire Areas of Expertise block like a single column section */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-4xl">
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
               Areas of Expertise
             </h3>
             
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap justify-center gap-3">
               {techStack.map((tech, index) => (
                 <span 
                   key={index} 
@@ -115,6 +117,7 @@ const Skills: React.FC = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
